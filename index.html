@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>VIAGENS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"
+
+   
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar"></body>
+
+    <nav class="navbar fixed navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand logo-text" href="#">VIAGENS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#promocoes">Promoções</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destino">Destino</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10"></div>
+                <h1 class="text-white display-4">VIAGENS</h1>
+                <p class="text-white">Encontre aqui as viagens mais legais 
+                  com preços acessíveis.
+                  Clique agora em seu destino e reserve já a sua passagem.
+                </p>
+            </div>
+        </div>
+      </section>
+
+      <section id="promocoes" class="row g-0 py-0">
+        <div class="col-lg-4 col-sm-6">
+           <div class="promocao-item">
+                 <img src="img/diaria.jpg" alt="">
+                 <div class="promocao-overlay">
+                    <div>
+                       <h3>Promocão Diária</h3>
+                    </div>
+                 </div>
+           </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+           <div class="promocao-item">
+                 <img src="img/destinos.png" alt="">
+                 <div class="promocao-overlay">
+                    <div>
+                       <h3>Promoção Destinos</h3>
+                    </div>
+                 </div>
+           </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+           <div class="promocao-item">
+                 <img src="img/internacional.png" alt="">
+                 <div class="promocao-overlay">
+                    <div>
+                       <h3>Promoção internacional</h3>
+                    </div>
+                 </div>
+           </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+           <div class="promocao-item">
+                 <img src="img/relampago.png" alt="">
+                 <div class="promocao-overlay">
+                    <div>
+                       <h3>Promoção relâmpago</h3>
+                    </div>
+                 </div>
+           </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+           <div class="promocao-item">
+                 <img src="img/madrugada.jpg" alt="">
+                 <div class="promocao-overlay">
+                    <div>
+                       <h3>Promoção Madrugada</h3>
+                    </div>
+                 </div>
+           </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+           <div class="promocao-item">
+                 <img src="img/parcelado.jpg" alt="">
+                 <div class="promocao-overlay">
+                    <div>
+                       <h3>Promoções Parceladas</h3>
+                    </div>
+                 </div>
+           </div>
+        </div>
+     </section>
+
+     <section id="destino">
+      <div class="container-fluid">
+        <h1 class="text-white display-4">RESERVAS</h1>
+         <div class="row">
+         <div class="sm-12 lg-6">
+           <div id="radio_stuff">
+            <fieldset class="form-group">
+              <legend>Pesquise aqui seu voo</legend>
+           <div class="form-check">
+             <label class="form-check-label">
+               <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+               Ida
+             </label>
+           </div>
+           <div class="form-check">
+           <label class="form-check-label">
+               <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+               Ida e Volta
+             </label>
+           </div>
+         </fieldset>
+           </div> 
+           </div> 
+         </div> 
+       <div id="voo">
+       <form> 
+       <div class="row">
+         <div class="col-sm-4">
+           <input type="text" class="form-control" placeholder="Destination">
+         </div>
+         <div class="col-sm-3">
+           <input class="form-control" type="date" id="date1" name="date" placeholder="Departure" type="text"> 
+   
+         </div>
+         <div class="col-sm-3">
+           <input class="form-control" type="date" id="date1" name="date" placeholder="Arrival" type="text"> 
+         </div> 
+         <div class="col-sm-2">
+         <button type="submit" class="btn btn-primary"> Voar</button>
+         </div>
+       </div> 
+         </form>
+       </div> 
+       
+   </section>
+
+     <section id="contato">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-4">
+               <img src="img/contatoimg.jpg" alt="">
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+               <form>
+                  <div class="mb-3">
+                    <small>Nome</small>
+                    <input type="text" class="form-control" id="Nome" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                     <small>Email</small>
+                     <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                   </div>
+                   <div class="mb-3">
+                     <small>Mensagem</small>
+                     <textarea name="" id="" cols="30" rows="4" class="form-control"></textarea>
+                   </div>
+                  <button type="submit" class="btn btn-brand">Submit</button>
+                </form>
+            </div>
+         </div>
+      </div>
+   </section>
+
+ 
+  </body>
+</html>

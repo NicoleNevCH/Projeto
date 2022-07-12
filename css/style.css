@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@400;700&display=swap');
+
+body{
+    line-height: 1.8;
+    color:gray;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:blue; 
+}
+
+a{
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+img{
+    width: 100%;
+}
+
+small{
+
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+ 
+section{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.navbar{
+
+    border-bottom: 2px solid rgb(0, 0, 0.1);
+}
+
+.navbar .nav-link{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.navbar .nav-link-nav .nav-link.active {
+
+    color: pink;
+
+}
+
+logo-text {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 255, 0.163) !important;
+    
+}
+
+#home{
+
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.121), rgb(192, 192, 192)), url(../img/aviao2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#home h1{
+    font-weight: 700;
+}
+
+#home p{
+    max-width: 550px;
+    margin:18px auto;
+}
+
+.btn{
+
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding:12px 28px;
+
+}
+
+.btn-brand{
+    background-color: brown;
+    color:white;
+}
+.btn-brand:hover{
+    background-color: brown;
+    color: whitesmoke;
+}
+
+.promocao-item{
+
+    overflow: hidden;
+    position: relative;
+}
+
+.promocao-item img,
+.promocao-item .promocao-overlay{
+    transition: all 0.4 ease;
+}
+
+.promocao-overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    opacity: 0;
+}
+
+.text-white {
+
+    text-align: center;
+}
+
+
+.promocao-overlay h3{
+        color: whitesmoke;
+    }
+
+.promocao-item:hover .promocao-overlay{
+    opacity: 1;
+}
+
+.promocao-item:hover img {
+    transform: scale(1,1);
+
+}
+
+#destino{
+
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.121), rgb(192, 192, 192)), url(../img/aviao2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+#contato{
+
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.121), rgb(192, 192, 192));
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#radio_stuff {
+    
+     position: absolute;
+     border-left: 50%;
+     color: white;
+     margin-top: 15%;
+     margin-right: 2em;
+     
+   }
+
+   .form-check {
+    display: block;
+    float: left;
+    margin-left: 2em;
+  }
+
+  
+  
